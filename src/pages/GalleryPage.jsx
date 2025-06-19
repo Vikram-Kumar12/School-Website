@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Gallery = () => {
+const GalleryPage = () => {
   return (
     <div>Gallery</div>
   )
 }
 
-export default Gallery
+export default GalleryPage

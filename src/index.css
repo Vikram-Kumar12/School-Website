@@ -1,1 +1,26 @@
 @import "tailwindcss";
+
+@font-face {
+    /* For all text */
+  font-family: 'font1';
+  src: url('/fonts/font1.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    /* For specif text */
+  font-family: 'font2';
+  src: url('/fonts/font2.woff') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    /*  For hading */
+  font-family: 'font3';
+  src: url('/fonts/font3.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
