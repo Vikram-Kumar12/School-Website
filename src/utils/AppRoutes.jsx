@@ -7,6 +7,7 @@ import Gallery from "../pages/GalleryPage";
 import Contact from "../pages/ContactPage";
 import { Route, Routes } from "react-router";
 import Navbar from "../components/homePage/Navbar";
+import MoreDetailsAboutOurStaff from "../components/MoreDetailsAboutOurStaff";
 const AppRoutes = () => {
   return (
     <div className="flex flex-col min-h-screen text-black ">
@@ -14,6 +15,7 @@ const AppRoutes = () => {
       <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/about-our-staff" element={<MoreDetailsAboutOurStaff/>} />
             <Route path="/about" element={<About />} />
             <Route path="/admissions" element={<Admissions />} />
             <Route path="/gallery" element={<Gallery />} />

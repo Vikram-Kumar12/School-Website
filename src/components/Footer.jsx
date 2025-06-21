@@ -11,8 +11,8 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="bg-[#F7F7F7] py-8 px-4 overflow-hidden">
-      <div className="max-w-7xl mx-auto">
+    <footer className=" px-4 sm:px-6 lg:px-8 overflow-hidden">
+      <div className="max-w-7xl mx-auto bg-white bg-opacity-90 rounded-t-xl shadow-2xl mt-10">
 
         {/* Top Image */}
         <motion.div 
@@ -61,7 +61,7 @@ export default function Footer() {
           className="text-center mb-1"
         >
           <p className="text-sm font-semibold text-gray-500">
-            Little Flower Vidya Mandir © 2018. All rights
+            Little Flower Vidya Mandir © 2015.
           </p>
         </motion.div>
 

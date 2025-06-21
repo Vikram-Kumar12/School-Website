@@ -66,7 +66,7 @@ const Welcome = () => {
 
         {/* left-side */}
         <motion.div 
-          className="w-full flex flex-col items-center px-5 py-8 sm:py-12 lg:px-8 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300"
+          className="w-full flex flex-col items-center px-5 py-8 sm:py-12 lg:px-8 bg-white rounded-lg shadow-xl hover:shadow-md transition-shadow duration-300"
           variants={itemVariants}
         >
 
@@ -123,7 +123,7 @@ const Welcome = () => {
 
         {/* right-side */}
         <motion.div 
-          className="w-full bg-white flex flex-col items-center justify-center px-5 py-8 sm:py-12 lg:px-8 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300"
+          className="w-full bg-white flex flex-col items-center justify-center px-5 py-8 sm:py-12 lg:px-8 rounded-lg shadow-xl hover:shadow-md transition-shadow duration-300"
           variants={containerVariants}
         >
             

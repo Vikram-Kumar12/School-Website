@@ -16,19 +16,19 @@ export default function Navbar() {
 
   return (
     <header className="bg-[#F7F7F7] text-black  shadow-lg sticky top-0 z-50 w-full">
-      <div className="container mx-auto px-4 sm:px-6">
-        <div className="flex justify-between items-center py-2">
+      <div className="container mx-auto px-4 sm:px-6 py-2 ">
+        <div className="flex justify-between items-center  ">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
-            className="flex items-center"
+            className="flex   h-16 sm:h-20 md:h-24  w-auto max-w-[180px] sm:max-w-[200px] md:max-w-[220px] lg:max-w-[250px] lg:h-[75px] items-center"
           >
             <Link to="/" href="/" passHref>
               <img
                 src="/school_logo2.png"
                 alt="School Logo"
-                className="h-16 sm:h-20 md:h-24 lg:h-[120px] w-auto max-w-[180px] sm:max-w-[200px] md:max-w-[220px] lg:max-w-[250px] mr-2 sm:mr-3 cursor-pointer"
+                className="object-cover w-full h-full mr-2 sm:mr-3 cursor-pointer"
               />
             </Link>
           </motion.div>

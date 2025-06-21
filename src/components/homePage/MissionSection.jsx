@@ -45,13 +45,13 @@ const MissionSection = () => {
 
     return (
         <motion.div 
-            className="mt-20 lg:mt-70"
+            className="mt-20 lg:mt-70 py-10 lg:px-20 px-8"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: "-50px" }}
             variants={containerVariants}
         >
-            <div className="flex flex-col items-center justify-center py-20 px-4 sm:px-6 lg:px-8">
+            <div className="flex flex-col items-center justify-center py-10 px-4 sm:px-6 lg:px-8  rounded-lg shadow-xl bg-white">
 
                 <motion.div 
                     className="flex flex-col items-center justify-center"
