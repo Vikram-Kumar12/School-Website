@@ -93,7 +93,7 @@ const GetStarted = () => {
 
         <Link
           to="/admissions"
-          className="px-6 py-3 bg-[#D9BF52] text-[#999999] font-semibold rounded-full hover:bg-yellow-500 cursor-pointer transition-colors duration-300"
+          className="px-6 py-3 bg-[#D9BF52] text-white font-semibold rounded-full hover:bg-yellow-500 cursor-pointer transition-colors duration-300"
         >
           FULL PROCESS
         </Link>

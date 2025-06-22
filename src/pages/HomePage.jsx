@@ -8,6 +8,7 @@ import GetStarted from '../components/homePage/GetStarted'
 import OurPrograme from '../components/homePage/OurPrograme'
 import Testimonals from '../components/homePage/Testimonals'
 import OurStaff from '../components/homePage/OurStaff'
+import ContactForm from '../components/ContactForm'
 const HomePage = () => {
   return (
     <div className=''>
@@ -19,6 +20,7 @@ const HomePage = () => {
       <OurPrograme/>
       <Testimonals/>
       <OurStaff/>
+      <ContactForm/>
       <LocationImage/>
     </div>
   )

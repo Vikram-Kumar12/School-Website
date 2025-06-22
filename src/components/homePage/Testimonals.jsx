@@ -28,7 +28,7 @@ const Testimonials = () => {
 
   return (
     <div className="w-full max-w-7xl mx-auto min-h-[300px] sm:min-h-[400px]  rounded-lg px-4 sm:px-6 lg:px-8 py-8 sm:py-12 flex flex-col items-center justify-center ">
-      <div className="w-full h-full flex flex-col items-center justify-center rounded-md py-10 shadow-md hover:shadow-xl transition-shadow duration-300">
+      <div className="w-full h-full flex flex-col items-center justify-center rounded-md py-10 shadow-md hover:shadow-lg transition-shadow duration-300">
         <h1
           style={{ fontFamily: "font3" }}
           className="text-4xl sm:text-5xl md:text-6xl xl:text-7xl font-semibold mb-4 sm:mb-6 md:mb-8 text-center text-[#27186B] animate-fadeIn"

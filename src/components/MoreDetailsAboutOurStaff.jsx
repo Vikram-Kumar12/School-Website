@@ -82,7 +82,7 @@ const MoreDetailsAboutOurStaff = () => {
           transition={{ delay: 0.2 }}
         >
           <h1 style={{fontFamily:"font3"}} className="text-5xl md:text-6xl  xl:text-7xl  font-bold text-gray-800 mb-4">
-            About Our <span className="text-red-600">Staff</span>
+            About Our <span className="text-blue-600">Staff</span>
           </h1>
           <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto font-semibold">
             Meet the dedicated professionals who make our institution exceptional through their expertise, passion, and commitment to excellence.
@@ -99,11 +99,11 @@ const MoreDetailsAboutOurStaff = () => {
           {stats.map((stat, index) => (
             <motion.div 
               key={index}
-              className="bg-red-50 hover:bg-red-100 rounded-lg p-6 text-center shadow-md hover:shadow-lg transition-shadow"
+              className="bg-blue-50 hover:bg-blue-100 rounded-lg p-6 text-center shadow-md hover:shadow-lg transition-shadow"
               variants={itemVariants}
               whileHover={{ scale: 1.05 }}
             >
-              <p className="text-3xl sm:text-4xl font-bold text-red-600 mb-2">{stat.value}</p>
+              <p className="text-3xl sm:text-4xl font-bold text-blue-600 mb-2">{stat.value}</p>
               <p className="text-gray-700 font-semibold">{stat.label}</p>
             </motion.div>
           ))}
@@ -125,7 +125,7 @@ const MoreDetailsAboutOurStaff = () => {
             >
               <h3 className="text-xl font-bold text-gray-800 mb-3">{dept.name}</h3>
               <p className="text-gray-400 mb-4 font-semibold">{dept.description}</p>
-              <p className="text-red-600 font-semibold">{dept.members} members</p>
+              <p className="text-blue-600 font-semibold">{dept.members} members</p>
             </motion.div>
           ))}
         </motion.div>
@@ -137,8 +137,8 @@ const MoreDetailsAboutOurStaff = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.4 }}
         >
-          <h2 style={{fontFamily:"font3"}} className="text-5xl md:text-6xl  xl:text-6xl  font-bold text-gray-800 mb-4 text-center">
-            Meet Our <span className="text-red-600">Teaching Faculty</span>
+          <h2 style={{fontFamily:"font3"}} className="text-5xl md:text-5xl  xl:text-5xl  font-bold text-gray-800 mb-4 text-center">
+            Meet Our <span className="text-blue-600">Teaching Faculty</span>
           </h2>
           <motion.div 
             className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 px-3 py-3"
@@ -165,7 +165,7 @@ const MoreDetailsAboutOurStaff = () => {
                 </div>
                 <div className="p-4 flex-grow">
                   <h3 className="text-lg font-bold text-gray-800 mb-1">{teacher.name}</h3>
-                  <p className="text-red-600 text-sm font-semibold mb-1">{teacher.position}</p>
+                  <p className="text-blue-800 text-sm font-semibold mb-1">{teacher.position}</p>
                   <p className="text-gray-600 text-xs font-semibold">{teacher.subject}</p>
                 </div>
               </motion.div>
@@ -175,7 +175,7 @@ const MoreDetailsAboutOurStaff = () => {
 
         {/* Philosophy Section */}
         <motion.div 
-          className="bg-red-500 rounded-xl p-8 md:p-12 text-white mb-16"
+          className="bg-blue-600 rounded-xl p-8 md:p-12 text-white mb-16"
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.4 }}

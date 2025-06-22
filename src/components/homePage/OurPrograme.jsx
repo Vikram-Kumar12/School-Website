@@ -23,7 +23,7 @@ const OurPrograme = () => {
 
   return (
     <div className=" py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto  shadow-2xl rounded-xl p-8 py-15 flex flex-col items-center justify-center">
+      <div className="max-w-7xl mx-auto  shadow-lg rounded-xl p-8 py-15 flex flex-col items-center justify-center">
 
         <div className="text-center mb-12">
           <h1 style={{fontFamily:"font3"}}

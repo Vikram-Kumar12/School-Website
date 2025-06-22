@@ -11,8 +11,8 @@ export default function Footer() {
   ];
 
   return (
-    <footer className=" px-4 sm:px-6 lg:px-8 overflow-hidden">
-      <div className="max-w-7xl mx-auto bg-white bg-opacity-90 rounded-t-xl shadow-2xl mt-10">
+    <footer className=" px-4 sm:px-6 lg:px-8 overflow-hidden ">
+      <div className="max-w-7xl mx-auto bg-white bg-opacity-90 rounded-t-xl shadow-2xl mt-10 py-5">
 
         {/* Top Image */}
         <motion.div 
@@ -73,7 +73,7 @@ export default function Footer() {
           viewport={{ once: true }}
           className="text-center"
         >
-          <p className="text-sm md:text-sm text-gray-500 font-semibold">
+          <p className="text-sm md:text-sm text-gray-500 font-semibold ">
             reserved. Developed by Vikram Kumar
           </p>
         </motion.div>
