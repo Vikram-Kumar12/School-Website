@@ -39,7 +39,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section className=" relative h-[300px] xs:h-[350px] sm:h-[400px] md:h-[500px] lg:h-[800px] xl:h-screen w-full overflow-hidden">
+    <section className=" relative h-[300px] xs:h-[350px] sm:h-[400px] md:h-[500px] lg:h-[800px] xl:h-screen w-full overflow-hidden rounded-lg">
 
       {/* Background Slides */}
       <div className="relative h-full w-full">
