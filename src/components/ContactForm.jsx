@@ -7,9 +7,9 @@ const your_public_key = import.meta.env.VITE_PUBLICK_KEY;
 const ContactForm = () => {
   const form = useRef();
 
-  console.log("your_service_id",your_service_id);
-  console.log("your_template_id",your_template_id);
-  console.log("your_public_key",your_public_key);
+  // console.log("your_service_id",your_service_id);
+  // console.log("your_template_id",your_template_id);
+  // console.log("your_public_key",your_public_key);
   
   const [formData, setFormData] = useState({
     firstName: '',
